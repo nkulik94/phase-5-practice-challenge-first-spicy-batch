@@ -4,5 +4,11 @@
 # def is_spicy_batch(batch):
 
 def first_spicy_batch(n)
-  # your code here
+  i = 1
+  while i <= n
+    return i if is_spicy_batch(i)
+    return n unless is_spicy_batch(n - 1)
+    i += 1
+    n -= 1
+  end
 end
